@@ -1,5 +1,8 @@
 import React from 'react'
 import "./App.css"
+// import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+// import Button from 'react-bootstrap/Button';
 
 const Header = () => {
     return (
@@ -27,6 +30,10 @@ const Class26 = () => {
                 return <li key={index}>{item.text}</li>
             })}
         </ul>
+        <br />
+        <button type="button" className="btn btn-primary">Primary</button>
+        <br /><br />
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
     </div>
     <Footer/>
     </>
