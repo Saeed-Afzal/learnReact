@@ -19,12 +19,13 @@
 
 import React from 'react'
 import  Resturant  from './components/basics/Resturant'
-
+import Class26 from './class26/Class26'
 
 const App = () => {
   return (
     
-      <Resturant />
+      // <Resturant />
+    <Class26/>
    
   )
 }
