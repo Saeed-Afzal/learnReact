@@ -22,7 +22,11 @@ import  Resturant  from './components/basics/Resturant'
 import Class26 from './class26/Class26'
 import Class27 from './Class27/Class27' 
 import Child from './Class27/Props/Child' // for props
-import Todo from './Class28/Todo'
+import Todo from './Class28/Todo' //watch later
+import CurrentTime from './technicalTutorial/CurrentTime'
+import Greeting from './technicalTutorial/Greetings/Greeting'
+
+
 
 const App = () => {
   return (
@@ -45,7 +49,20 @@ const App = () => {
 
     //todo App Class28
     <>
-    <Todo/>
+    {/* <Todo/> */}
+
+
+
+    {/* Thapa Technical Working */}
+    {/* <CurrentTime/> */}
+    
+    <Greeting />
+    
+    
+    
+    
+    
+    
     </>
     
 
